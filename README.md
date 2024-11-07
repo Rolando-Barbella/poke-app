@@ -37,4 +37,6 @@ A couple of thing I will have done better with a bit more time:
 
 -There is secrete key expose in the google-service, in a production appp this needs to be handle differently
 
+- The app was mostly tested on Android, it should work fine on IOS tough
+
 
