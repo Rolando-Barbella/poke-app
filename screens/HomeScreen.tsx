@@ -10,6 +10,7 @@ export default function HomeScreen({ navigation }: { navigation: any }) {
     hasNextPage,
     isFetchingNextPage,
     status,
+    error,
   } = useInfiniteQuery({
     queryKey: ['pokemon'],
     queryFn: ({ pageParam = 0 }) => fetchPokemon({ pageParam }),
@@ -39,6 +40,18 @@ export default function HomeScreen({ navigation }: { navigation: any }) {
     <View style={styles.container}>
       {status === 'pending' ? (
         <ActivityIndicator size="large" color="#eee" />
+      ) : status === 'error' ? (
+        <View style={styles.errorContainer}>
+          <Text style={styles.errorText}>
+            {'An error occurred while fetching Pokemon'}
+          </Text>
+          <TouchableOpacity
+            style={styles.retryButton}
+            onPress={() => fetchNextPage()}
+          >
+            <Text style={styles.retryText}>Retry</Text>
+          </TouchableOpacity>
+        </View>
       ) : (
         <FlatList
           data={pokemonList}
@@ -74,5 +87,25 @@ const styles = StyleSheet.create({
   },
   footer: {
     margin: 20,
+  },
+  errorContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  errorText: {
+    fontSize: 16,
+    color: 'red',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  retryButton: {
+    backgroundColor: '#007AFF',
+    padding: 10,
+    borderRadius: 5,
+  },
+  retryText: {
+    color: 'white',
+    fontSize: 16,
   },
 });
