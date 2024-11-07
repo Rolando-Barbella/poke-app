@@ -31,11 +31,11 @@ Otherwise, some random notifications has been scheduled from the next 3 days (17
 ## TODO
 A couple of thing I will have done better with a bit more time:
 
--The notifications are display with a simple Alert, ideally a library that offers "more control" could be use
+- The notifications are display with a simple Alert, ideally a library that offers "more control" could be use
 
--The notifications when the app is in the background are displayed, however when you press on it, it is not passing the custom field values to the new screen
+- The notifications when the app is in the background are displayed, however when you press on it, it is not passing the custom field values to the new screen
 
--There is secrete key expose in the google-service, in a production appp this needs to be handle differently
+- There is secrete key expose in the google-service, in a production appp this needs to be handle differently
 
 - The app was mostly tested on Android, it should work fine on IOS tough
 
