@@ -1,6 +1,14 @@
 # Pokemon App
 A simple mobile app that fetches a list of pokemons from a public API, handles notifications and navaigation
 
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Expo_Icon.svg" alt="Expo" width="60"/>
+  <img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg" alt="Firebase" width="60"/>
+  <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="60"/>
+</p>
+
+
 ## How to run the app
 
 ```bash
@@ -12,7 +20,8 @@ npm start
 ```
 
 ```bash
-npx run android
+i - run on iOS
+a - run on Android
 ```
 
 ## Push Notifications

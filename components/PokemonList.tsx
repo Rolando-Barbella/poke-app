@@ -14,6 +14,10 @@ export default function PokemonListScreen() {
     queryKey: ['pokemon'],
     queryFn: ({ pageParam = 0 }) => fetchPokemon({ pageParam }),
     getNextPageParam: (lastPage) => {
+      // This line of code extracts the next page offset from the 'next' URL in the lastPage object.
+      // If 'next' is present, it splits the URL to extract the offset value.
+      // The offset value is then parsed to an integer and returned.
+      // If 'next' is not present, it returns undefined.
       return lastPage.next ? parseInt(lastPage.next.split('offset=')[1].split('&')[0]) : undefined;
     },
     initialPageParam: 0,
