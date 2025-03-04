@@ -3,7 +3,7 @@ A simple mobile app that fetches a list of pokemons from a public API, handles n
 
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Expo_Icon.svg" alt="Expo" width="60"/>
+  <img src="https://static.expo.dev/static/favicon.png" alt="Expo" width="60"/>
   <img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg" alt="Firebase" width="60"/>
   <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="60"/>
 </p>
