@@ -4,7 +4,7 @@ A robust mobile app that fetches a list of pokemons from a public API, handles n
 Build with React Native, Expo and Firebase
 
 
-<p align="center">
+<p>
   <img src="https://cdn.brandfetch.io/idzGRYC3u5/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1667740799142" alt="Expo app" width="60"/>
   <img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg" alt="Firebase" width="60"/>
   <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="60"/>
