@@ -1,10 +1,9 @@
 # Pokemon App
-A simple mobile app that fetches a list of pokemons from a public API, handles notifications and navaigation
+A robust mobile app that fetches a list of pokemons from a public API, handles notifications and navaigation
 
+Build with React Native, Expo and Firebase
 
 <p align="center">
-
-![screen](https://github.com/Rolando-Barbella/poke-app/blob/main/assets/images/client.svg)
   <img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg" alt="Firebase" width="60"/>
   <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="60"/>
 </p>
